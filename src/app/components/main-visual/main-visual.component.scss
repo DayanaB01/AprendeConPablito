@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'titulo';
+    src: url(../../../assets/fonts/Trendy.ttf);
+}
+h2{
+    font-family: 'titulo';
+}
+.textOne{
+background-color: #F9C3D0;
+color: white;
+height: 30%;
+display: flex;
+justify-content: center;
+}
+.textTwo{
+background-color: #F5CC99;
+color: white;
+height: 30%;
+display: flex;
+justify-content: center;
+}
+.textThree{
+background-color: #FAD9E4;
+color: white;
+height: 30%;
+display: flex;
+justify-content: center;
+}
+article{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 80%;
+ justify-content: center;
+}

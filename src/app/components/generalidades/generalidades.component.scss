@@ -1,0 +1,31 @@
+@font-face {
+    font-family: titulo;
+    src: url(../../../assets/fonts/Trendy.ttf);
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    background-color: #FAF1EB;
+        justify-content: space-evenly;
+}
+h1{
+    color: #FF8EB4;
+    font-family: 'titulo';
+}
+.botones{
+    flex-direction: column;
+    display: flex;
+    
+}
+button{
+    height: 74px;
+    background-color: #F9C3D0;
+    border: 4px solid #FF8EB4;
+    border-radius: 10px;
+        margin-bottom: 8%;
+        font-family: 'titulo';
+        color: #FAF1EB;
+        font-size: larger;
+}

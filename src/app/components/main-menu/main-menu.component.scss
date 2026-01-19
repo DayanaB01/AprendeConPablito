@@ -1,0 +1,34 @@
+@font-face {
+    font-family: titulo;
+    src: url(../../../assets/fonts/Trendy.ttf);
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.mat-toolbar {
+  background: #FAD9E4;
+  color: rgb(255 0 235);
+}
+img{
+  width: 24%;
+}
+.example-icon{
+  background-color: #FAD9E4;
+  border-bottom-color: transparent;
+  border-top-color:transparent ;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+mat-menu{
+  background-color: #FAF1EB;
+    font-family: 'titulo';
+  color: white;
+}
+button{
+  background-color: #F9C3D0;
+  border-color: #FF8EB4;
+  border-style: solid;
+  border-radius: 10px;
+}
+

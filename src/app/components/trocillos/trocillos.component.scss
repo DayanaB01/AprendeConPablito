@@ -1,0 +1,69 @@
+@font-face {
+    font-family: titulo;
+    src: url(../../../assets/fonts/Trendy.ttf);
+}
+@font-face {
+    font-family: subtitulo;
+    src: url(../../../assets/fonts/Bright.otf);
+}
+h1{
+    font-family: 'titulo';
+    color: #FF8EB4;
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: large;
+}
+.contenedor{
+    background-color: #FAF1EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 90%;
+}
+.listas{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #FAF1EB;
+  padding: 10px;
+  width: 70%;
+height: 70%;
+}
+.botones{
+  background-color: #FAF1EB;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.textFour{
+background-color: #FAF1EB;
+color: #FF8EB4;
+height: 30%;
+display: flex;
+justify-content: center;
+}
+
+button{
+    background-color: #F9C3D0;
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    font-family: 'subtitulo';
+    font-size: x-large;
+    color: #FAF1EB;
+}
+
+article{
+   width: 60%;
+    text-align: center;
+}
+
+.articulo{
+    display: flex;
+    justify-content: center;
+}

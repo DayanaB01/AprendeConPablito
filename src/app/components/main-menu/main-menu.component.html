@@ -1,0 +1,17 @@
+  <mat-toolbar color="pink">
+    <mat-toolbar-row>
+      <span routerLink="/visualIndex"><img src="../../../assets/imagenes/logoJulia.png" alt="logo-aprende-con-Pablito"></span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="menu">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item routerLink="/generalidades">GENERALIDADES DE MEDICAMENTOS</button>
+        <button mat-menu-item routerLink="/grupoMedicamentos">GRUPO DE MEDICAMENTOS</button>
+        <button mat-menu-item routerLink="/tecnicas">TÉCNICAS DE ESTUDIO </button>
+      </mat-menu>
+      
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+

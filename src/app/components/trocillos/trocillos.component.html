@@ -1,0 +1,18 @@
+<div class="contenedor">
+    <div class="articulo">
+    <article>
+        <h1>Lo que venga del boton</h1>
+        <p>
+            Los analgésicos son medicamentos utilizados para aliviar el dolor sin producir
+            pérdida de la conciencia. Su uso es frecuente en diferentes contextos clínicos y
+            constituye una parte fundamental del manejo del dolor en el área de la salud.
+        </p>
+    </article>
+    </div>
+
+    <div class="listas">
+    <div class="botones" *ngFor="let i of lista">
+        <button routerLink="/medicamento">{{i}}</button>
+    </div>
+    </div>
+</div>
